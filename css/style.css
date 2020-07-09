@@ -9732,7 +9732,7 @@ margin-bottom: 100px}
 .gallery_img h2{color: #000; padding-top: 60px}
 .gallery_img .card_news{width:90%; height: 750px;text-align: center; padding: 5%; margin: 0 auto}
 .gallery_img .card_news img{width:100% !important;text-align: center}
-.gallery_img .event_pop{width: 100%px; height: 100%; margin: 0 auto}
+.gallery_img .event_pop{width: 80%; height: 80%; margin: 0 auto}
 .gallery_img .event_pop img{width: 65%; margin: 0 auto; margin-bottom: 60px}
 
  @media (max-width:1000px){
