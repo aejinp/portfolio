@@ -1981,6 +1981,91 @@ Icon for all respective meta
     transition: all 300ms;
 }
 
+
+
+
+
+ * Preloader
+/* ---------------------------------------------- */
+/*
+#tt-preloader {
+	background: #FFF;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+#pre-status,
+.preload-placeholder {
+	background-image: url(../images/preloader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+}
+
+.preload-placeholder {
+	background: none;
+	left: 0;
+	margin: 0;
+	text-align: center;
+	top: 65%;
+}
+*/
+
+/*Preloader*/
+#loading{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+    top: 0px;
+    left:0;
+    z-index: 9999;
+}
+#loading-center{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    -webkit-animation: loading-center-absolute 1.5s infinite;
+    animation: loading-center-absolute 1.5s infinite;
+
+}
+.object{
+    width: 64px;
+    height: 64px;
+    background-image: url(../images/preloader.gif);
+
+}
+
+
+/*End off Preloader*/
+	<div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                </div>
+            </div>
+        </div>
+
 /*HOMEPAGE TWO*/
 #homeTwo{
     position: relative;
@@ -2039,3 +2124,4 @@ Icon for all respective meta
     box-shadow: 0 0px 0px 1px #eee;
 }
 .concept{padding: 20%}
+

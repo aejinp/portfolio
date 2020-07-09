@@ -28,12 +28,19 @@ jQuery(function ($) {
     /* ---------------------------------------------- /*
      * Preloader
     /* ---------------------------------------------- */
-
+/*
     $(window).ready(function() {
         $('#pre-status').fadeOut();
         $('#tt-preloader').delay(350).fadeOut('slow');
     });
+*/
 
+
+    $( window ).load( function () {
+        $( "#loading" ).fadeOut( 500 );
+    } );
+
+    
 
 
 
@@ -141,12 +148,12 @@ jQuery(function ($) {
                 //your configuration goes here
                 easing: 'easeOut',
                 delay: 3000,
-                barColor:'#68c3a3',
-                trackColor:'rgba(255,255,255,0.2)',
+                barColor:'#f4adb6',
+                trackColor:'#68c3a3',
                 scaleColor: false,
                 lineWidth: 8,
                 size: 140,
-                animate: 2000,
+                animate: 3000,
                 onStep: function(from, to, percent) {
                     this.el.children[0].innerHTML = Math.round(percent);
                 }
