@@ -9726,17 +9726,18 @@ margin-bottom: 100px}
     background-color: none !important;
   
     }
-
-.gallery_img .banner{width: 100%; height: auto; overflow-x: hidden; ;background-size: cover}
-.gallery_img .banner img{padding-bottom: 60px;}
+.gallery_img{width: 60%; height: 70%; padding-bottom: 4%}
+.gallery_img .banner{width: 100%; overflow-x: hidden; ;background-size: cover}
+.gallery_img .banner img{padding-bottom: 60px; width: 90%; padding: 5%}
 .gallery_img h2{color: #000; padding-top: 60px}
-.gallery_img .card_news{width:700px; height: 750px;text-align: center}
-.gallery_img .event_pop{width: 700px; height: auto;}
-.gallery_img .event_pop img{width: 600px; margin: 0 auto; margin-bottom: 60px}
+.gallery_img .card_news{width:90%; height: 750px;text-align: center; padding: 5%; margin: 0 auto}
+.gallery_img .card_news img{width:100% !important;text-align: center}
+.gallery_img .event_pop{width: 100%px; height: 100%; margin: 0 auto}
+.gallery_img .event_pop img{width: 65%; margin: 0 auto; margin-bottom: 60px}
 
- @media all(max-width:1000px){
-     .gallery_img{width: 80% !important; height: auto !important;/* overflow-x: hidden; ;background-size: cover*/};
-     .gallery_img .banner img{display: none}
+ @media (max-width:1000px){
+     
+     .gallery_img{width: 100%!important; height: auto !important;/* overflow-x: hidden; ;background-size: cover*/};
         }
            
 
