@@ -320,7 +320,7 @@ ul.list-check li::before {
 /* === HOME === */
 @media (max-width : 640px) {
     .tt-fullHeight{
-        height: 560px !important;
+        height: 460px !important;
     }
 }
 
@@ -354,7 +354,16 @@ ul.list-check li::before {
 	position: relative;
 text-align: center;
 line-height: 1022px}
-#broshome img{width: 20%; padding-top: 200px!important}
+#broshome img{width: 20%;padding-top: 12%!important}
+@media (max-width:1400px){
+  #broshome img{width: 30%;/* padding-top: 12%!important*/}  
+}
+@media (max-width:1000px){
+  #broshome img{width: 40%;/* padding-top: 12%!important*/}  
+}
+@media (max-width:800px){
+  #broshome img{width: 50%; padding-top: 10%!important}  
+}
 
 #broshome:before {
 	display: none
@@ -1736,7 +1745,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #54c2ec;
+	background-color: #147ac9;
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -2043,25 +2052,30 @@ button{width: 200px;height: 50px;}
     box-shadow: 0 0px 0px 1px #eee;
 }
 .concept{background-color: #f3eddd;text-align: center; padding-bottom: 200px}
-.vod{width: 1180px;height:auto;margin: 0 auto}
+.vod{width: 60%;height:auto;margin: 0 auto; padding-top: 8%}
 .vod video{width: 100%;border-bottom:none ;border-top:none;top:none; box-shadow: 5px 5px 10px 3px #808080}
-.btn{ width: 200px; height: 50px; background-color: #147ac9; margin-top: 80px; margin-bottom: 150px;color: #fff !important; text-decoration-line: none}
+.btn{height: 50px; background-color: #147ac9; margin-top: 80px; margin-bottom: 150px;color: #fff !important; text-decoration-line: none}
 .btn:hover{background-color: #ffd200; color: #000; font-size: 1rem}
 
 
 
 
 
-.contant{padding-top: 300px}
+.contant{padding-top: 5%}
 img{border:none 0;vertical-align:top;}
 #banner_wrap{position:relative;width:100%;margin:0 auto;text-align: center}
 #slide_banner {text-align: center}
 #slide_banner img{width:100%}
-#prevBtn{position:absolute;left:400px;top:170px;}
-#nextBtn{position:absolute;right:400px;top:170px;}
+#prevBtn{position:absolute;left:30%;top:230px;}
+#nextBtn{position:absolute;right:30%;top:230px;}
 .bx-wrapper{margin: 0 auto; max-width: 700px!important; margin-bottom: 200px}
 .bx-controls{display: none}
 
+@media (max-width:1400px){
+    
+#nextBtn, #prevBtn{display: none;/*position:absolute;left:20%;top:170px;*/} ;
+    
+}
 
 
 
