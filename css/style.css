@@ -14100,7 +14100,7 @@ textarea.form-control {
 
 @media (max-width:1000px){
     .gallery_img .banner .scroll {
-        width: 70%;
+        width: 90%;
         height: 450px!important;
         /*margin: 0 auto;overflow-y: scroll*/
     }
